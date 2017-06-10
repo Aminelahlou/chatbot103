@@ -5,6 +5,12 @@ export default async function showLanguage(res) {
   console.log('LAUGHT')
 
   const replies = []
-  replies.push(formatter.formatImg('https://giphy.com/gifs/laughing-cristiano-ronaldo-LBA8IfDSb7TBS'))
+  const laughs = [
+    'https://media.giphy.com/media/ZqlvCTNHpqrio/giphy.gif',
+    'https://media.giphy.com/media/3NtY188QaxDdC/giphy.gif',
+    'https://media.giphy.com/media/jQmVFypWInKCc/giphy.gif',
+    'https://media.giphy.com/media/xUPOqrl3x2SkKjE3Is/giphy.gif',
+  ]
+  replies.push(formatter.formatImg(laughs[Math.floor(Math.random() * laughs.length)]))
   return replies
 }
