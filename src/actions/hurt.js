@@ -7,7 +7,7 @@ export default async function showLanguage(res) {
 
   const replies = []
   const quickReplies = []
-  languages.forEach((l) => {
+  body.forEach((l) => {
     quickReplies.push({
       name: l,
       value: `I hurt my ${l}`,
