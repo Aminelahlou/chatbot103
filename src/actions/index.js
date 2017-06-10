@@ -1,8 +1,5 @@
 const actions = {
-  'most-starred': require('./most-starred'),
-  'most-forked': require('./most-forked'),
-  'show-languages': require('./show-languages'),
-  'laugh': require('./laugh'),
+  'hurt': require('./hurt'),
 }
 
 export default async function handleAction(res, payload) {
