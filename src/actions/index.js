@@ -1,6 +1,7 @@
 const actions = {
   'hurt': require('./hurt'),
   'laught': require('./laught'),
+  'poop': require('./poop'),
 }
 
 export default async function handleAction(res, payload) {
