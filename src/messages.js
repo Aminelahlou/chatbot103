@@ -15,8 +15,11 @@ export async function replyMessage(message) {
     let payload = ''
     let replies = []
     if (message.type === 'payload') {
-      text = message.content
+    	text = message.content
     }
+	if (message.type === 'picture') {
+		text = 'It\'s so pretty!'
+	}
     const res = await req.converseText(text, { conversationToken: senderId })
     console.log('RECAST ANSWER', res)
     replies = await handleAction(res, payload)
