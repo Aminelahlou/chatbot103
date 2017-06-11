@@ -224,11 +224,11 @@ You can follow us on Twitter at [@recastai](https://twitter.com/recastai) for up
 
 ## Notes
 
-- Hi Babydoc, my Lucas has been crying for an hour even though he has eaten.
+- Hi, my Lucas has been crying for an hour even though he has eaten.
 > Hello ! Could you please check his temperature?
 - He doesn't seem to have any fever.
 > Did you check his diapers ?
 - Oh! You're right! But the color and size seems abnormal..
 > Please send me a picture.
 - PIC.jurassic.gif
-> You should call a doctor, here's a list of doctors near you location. 
+> Don't worry, it seems that Lucas has a colic. You can reach our pediatrician Emma to confirm this diagnosis and have further information. Click here to call Emma. 
