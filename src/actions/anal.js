@@ -6,7 +6,10 @@ export default async function showLanguage(res) {
 
   const replies = []
   replies.push(formatter.formatImg('../../assets/check.gif'))
-  replies.push(formatter.formatQuickReplies(quickReplies,res.reply()))
+  text = 'AI Image Analysis completed : according to the symptoms and data sent, it seems that your baby has a colic.'
+  const res = await req.converseText(text, { conversationToken: senderId })
+  text = 'Would you like to make an appointment with a doctor near your location?'
+  const res = await req.converseText(text, { conversationToken: senderId })
 
   return replies
 }
