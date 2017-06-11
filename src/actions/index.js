@@ -2,7 +2,6 @@ const actions = {
   'hurt': require('./hurt'),
   'laught': require('./laught'),
   'poop': require('./poop'),
-  'anal': require('./anal'),
 }
 
 export default async function handleAction(res, payload) {

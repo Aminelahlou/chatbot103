@@ -218,3 +218,17 @@ You can follow us on Twitter at [@recastai](https://twitter.com/recastai) for up
 ## Special thanks
 
 - [Github API](https://developer.github.com/v3/)
+
+
+
+
+## Notes
+
+- Hi Babydoc, my Lucas has been crying for an hour even though he has eaten.
+> Hello ! Could you please check his temperature?
+- He doesn't seem to have any fever.
+> Did you check his diapers ?
+- Oh! You're right! But the color and size seems abnormal..
+> Please send me a picture.
+- PIC.jurassic.gif
+> You should call a doctor, here's a list of doctors near you location. 

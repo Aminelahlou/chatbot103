@@ -18,9 +18,7 @@ export async function replyMessage(message) {
     	text = message.content
     }
 	if (message.type === 'picture') {
-		text = 'AI Image Analysis completed : according to the symptoms and data sent, it seems that your baby has a colic.'
-		const res = await req.converseText(text, { conversationToken: senderId })
-		text = 'Would you like to make an appointment with a doctor near your location?'
+		text = 'You should call a doctor, here\'s a list of doctors near you location.'
 	}
     const res = await req.converseText(text, { conversationToken: senderId })
     console.log('RECAST ANSWER', res)
